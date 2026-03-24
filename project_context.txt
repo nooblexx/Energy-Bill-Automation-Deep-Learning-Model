@@ -1,0 +1,20 @@
+Project: Utility Bill AI Extraction
+
+Goal:
+Automate extraction of:
+- kWh usage
+- total kWh cost
+- peak demand
+- demand cost
+- billing cycle
+
+Pipeline:
+1. PDF → image
+2. PaddleOCR → text + bounding boxes
+3. LayoutLM → token classification
+4. Optional: row classification + aggregation
+5. Output → Excel
+
+Key design:
+- Model does classification, NOT arithmetic
+- Python handles aggregation
