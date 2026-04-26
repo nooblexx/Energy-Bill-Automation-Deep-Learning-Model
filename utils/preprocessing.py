@@ -43,6 +43,8 @@ def find_stop_line(lines):
     return len(lines)
 
 def score_page(lines):
+    if not lines:
+        return 0.0, 0.0
     # Store variables
     keyword_token = 0
     total_words = 0
