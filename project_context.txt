@@ -11,6 +11,7 @@ Automate extraction of:
 Pipeline:
 1. PDF → image
 2. PaddleOCR → text + bounding boxes
+3. Word-Level Tokenization
 3. LayoutLM → token classification
 4. Optional: row classification + aggregation
 5. Output → Excel

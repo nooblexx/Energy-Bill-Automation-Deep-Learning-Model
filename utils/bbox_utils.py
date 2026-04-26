@@ -29,9 +29,13 @@ def split_bbox_horizontally(bbox, words):
 # Required normalization for LayoutLMv3
 def normalize_bbox(bbox, page_width, page_height):
     x1, y1, x2, y2 = bbox
-    return [
+    normalized =  [
         int(x1 / page_width  * 1000),
         int(y1 / page_height * 1000),
         int(x2 / page_width  * 1000),
         int(y2 / page_height * 1000),
     ]
+    # Verify all values are within 0-1000
+    if any(v < 0 or v > 1000 for v in normalized):
+        print(f"WARN: bbox out of range {bbox} → {normalized}")
+    return normalized

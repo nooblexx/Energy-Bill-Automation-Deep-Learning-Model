@@ -1,0 +1,4093 @@
+[
+  {
+    "data": {
+      "image": "/data/local-files/?d=training_data/images/electric%20bills-part-4_1.png"
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.2,
+              "y": 2.8,
+              "width": 5.9,
+              "height": 1.1,
+              "text": [
+                "Account"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 73.1,
+              "y": 2.8,
+              "width": 9.3,
+              "height": 1.1,
+              "text": [
+                "33240-53002"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 91.2,
+              "y": 2.5,
+              "width": 4.3,
+              "height": 1.5,
+              "text": [
+                "Page"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 95.5,
+              "y": 2.5,
+              "width": 1.0,
+              "height": 1.5,
+              "text": [
+                "2"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 17.2,
+              "y": 4.8,
+              "width": 2.1,
+              "height": 1.1,
+              "text": [
+                "kWh"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.3,
+              "y": 4.8,
+              "width": 6.4,
+              "height": 1.1,
+              "text": [
+                "Delivered"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 25.7,
+              "y": 4.8,
+              "width": 2.1,
+              "height": 1.1,
+              "text": [
+                "(to"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 27.8,
+              "y": 4.8,
+              "width": 6.3,
+              "height": 1.1,
+              "text": [
+                "Customer)"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 50.8,
+              "y": 4.9,
+              "width": 6.9,
+              "height": 1.7,
+              "text": [
+                "Billing"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 57.7,
+              "y": 4.9,
+              "width": 6.8,
+              "height": 1.7,
+              "text": [
+                "Summary"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 4.8,
+              "y": 6.5,
+              "width": 4.0,
+              "height": 1.1,
+              "text": [
+                "Meter"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 11.0,
+              "y": 6.3,
+              "width": 5.3,
+              "height": 1.5,
+              "text": [
+                "Reading"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.7,
+              "y": 6.4,
+              "width": 4.1,
+              "height": 1.3,
+              "text": [
+                "Meter"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 29.0,
+              "y": 6.5,
+              "width": 3.0,
+              "height": 1.0,
+              "text": [
+                "kWh"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 35.7,
+              "y": 6.5,
+              "width": 3.7,
+              "height": 1.0,
+              "text": [
+                "Meter"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 42.0,
+              "y": 6.5,
+              "width": 5.4,
+              "height": 1.0,
+              "text": [
+                "Kilowatt-"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 4.2,
+              "y": 7.7,
+              "width": 5.3,
+              "height": 1.1,
+              "text": [
+                "Number"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 11.7,
+              "y": 7.5,
+              "width": 4.0,
+              "height": 1.5,
+              "text": [
+                "Dates"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.0,
+              "y": 7.5,
+              "width": 5.4,
+              "height": 1.5,
+              "text": [
+                "Reading"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 27.3,
+              "y": 7.7,
+              "width": 6.5,
+              "height": 1.1,
+              "text": [
+                "Difference"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 34.6,
+              "y": 7.7,
+              "width": 5.8,
+              "height": 1.1,
+              "text": [
+                "Constant"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 42.7,
+              "y": 7.6,
+              "width": 3.9,
+              "height": 1.2,
+              "text": [
+                "Hours"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 50.3,
+              "y": 7.5,
+              "width": 4.0,
+              "height": 1.4,
+              "text": [
+                "Total"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 54.3,
+              "y": 7.5,
+              "width": 4.8,
+              "height": 1.4,
+              "text": [
+                "Supply"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 59.1,
+              "y": 7.5,
+              "width": 5.7,
+              "height": 1.4,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 89.6,
+              "y": 7.5,
+              "width": 6.8,
+              "height": 1.3,
+              "text": [
+                "$3,704.72"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 11.6,
+              "y": 9.3,
+              "width": 3.2,
+              "height": 1.3,
+              "text": [
+                "Jan"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 14.8,
+              "y": 9.3,
+              "width": 1.0,
+              "height": 1.3,
+              "text": [
+                "5"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.7,
+              "y": 9.4,
+              "width": 4.1,
+              "height": 1.1,
+              "text": [
+                "04443"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 50.2,
+              "y": 9.3,
+              "width": 3.9,
+              "height": 1.2,
+              "text": [
+                "Total"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 54.1,
+              "y": 9.3,
+              "width": 6.2,
+              "height": 1.2,
+              "text": [
+                "Delivery"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 60.3,
+              "y": 9.3,
+              "width": 5.4,
+              "height": 1.2,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 90.5,
+              "y": 9.2,
+              "width": 6.0,
+              "height": 1.5,
+              "text": [
+                "$733.80"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 3.2,
+              "y": 10.3,
+              "width": 7.2,
+              "height": 1.2,
+              "text": [
+                "300959386"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 28.4,
+              "y": 10.3,
+              "width": 4.4,
+              "height": 1.1,
+              "text": [
+                "00004"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 36.0,
+              "y": 10.2,
+              "width": 3.1,
+              "height": 1.3,
+              "text": [
+                "600"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 42.9,
+              "y": 10.3,
+              "width": 3.5,
+              "height": 1.2,
+              "text": [
+                "2400"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 11.6,
+              "y": 11.0,
+              "width": 3.2,
+              "height": 1.4,
+              "text": [
+                "Jan"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 14.8,
+              "y": 11.0,
+              "width": 1.0,
+              "height": 1.4,
+              "text": [
+                "4"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.6,
+              "y": 11.1,
+              "width": 4.2,
+              "height": 1.2,
+              "text": [
+                "04439"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 50.2,
+              "y": 11.0,
+              "width": 4.3,
+              "height": 1.4,
+              "text": [
+                "Other"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 54.5,
+              "y": 11.0,
+              "width": 5.9,
+              "height": 1.4,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 11.6,
+              "y": 12.8,
+              "width": 3.2,
+              "height": 1.3,
+              "text": [
+                "Jan"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 14.8,
+              "y": 12.8,
+              "width": 1.0,
+              "height": 1.3,
+              "text": [
+                "4"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.7,
+              "y": 12.9,
+              "width": 4.1,
+              "height": 1.1,
+              "text": [
+                "04439"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 52.1,
+              "y": 13.0,
+              "width": 4.6,
+              "height": 1.0,
+              "text": [
+                "Excess"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 56.7,
+              "y": 13.0,
+              "width": 4.5,
+              "height": 1.0,
+              "text": [
+                "Credit"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 81.4,
+              "y": 12.9,
+              "width": 6.6,
+              "height": 1.2,
+              "text": [
+                "-$1,597.14"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 3.2,
+              "y": 13.8,
+              "width": 7.2,
+              "height": 1.2,
+              "text": [
+                "300959386"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 28.4,
+              "y": 13.8,
+              "width": 4.3,
+              "height": 1.2,
+              "text": [
+                "00093"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 36.0,
+              "y": 13.8,
+              "width": 3.0,
+              "height": 1.2,
+              "text": [
+                "600"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 42.6,
+              "y": 13.8,
+              "width": 4.2,
+              "height": 1.2,
+              "text": [
+                "55800"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 11.5,
+              "y": 14.6,
+              "width": 3.3,
+              "height": 1.3,
+              "text": [
+                "Dec"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 14.8,
+              "y": 14.6,
+              "width": 1.1,
+              "height": 1.3,
+              "text": [
+                "4"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.7,
+              "y": 14.7,
+              "width": 4.1,
+              "height": 1.1,
+              "text": [
+                "04346"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 50.4,
+              "y": 14.8,
+              "width": 3.8,
+              "height": 1.1,
+              "text": [
+                "Total"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 54.2,
+              "y": 14.8,
+              "width": 3.9,
+              "height": 1.1,
+              "text": [
+                "Other"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 58.1,
+              "y": 14.8,
+              "width": 5.6,
+              "height": 1.1,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 89.8,
+              "y": 14.6,
+              "width": 6.7,
+              "height": 1.4,
+              "text": [
+                "-$1,597.14"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 3.1,
+              "y": 16.5,
+              "width": 2.8,
+              "height": 1.2,
+              "text": [
+                "Days"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 5.9,
+              "y": 16.5,
+              "width": 4.8,
+              "height": 1.2,
+              "text": [
+                "Billed:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 10.7,
+              "y": 16.5,
+              "width": 1.4,
+              "height": 1.2,
+              "text": [
+                "32"
+              ],
+              "rectanglelabels": [
+                "B-KWH_USAGE"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 20.6,
+              "y": 16.5,
+              "width": 2.8,
+              "height": 1.2,
+              "text": [
+                "Avg."
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 23.4,
+              "y": 16.5,
+              "width": 5.7,
+              "height": 1.2,
+              "text": [
+                "kWh/Day:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 29.1,
+              "y": 16.5,
+              "width": 2.9,
+              "height": 1.2,
+              "text": [
+                "1819"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 34.5,
+              "y": 16.5,
+              "width": 3.3,
+              "height": 1.0,
+              "text": [
+                "Total"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 37.8,
+              "y": 16.5,
+              "width": 6.7,
+              "height": 1.0,
+              "text": [
+                "Delivered:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 44.5,
+              "y": 16.5,
+              "width": 3.5,
+              "height": 1.0,
+              "text": [
+                "58200"
+              ],
+              "rectanglelabels": [
+                "B-KWH_COST"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 50.9,
+              "y": 17.1,
+              "width": 8.2,
+              "height": 1.6,
+              "text": [
+                "Amount"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 59.1,
+              "y": 17.1,
+              "width": 4.1,
+              "height": 1.6,
+              "text": [
+                "Due"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.2,
+              "y": 17.1,
+              "width": 2.8,
+              "height": 1.6,
+              "text": [
+                "By"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 66.0,
+              "y": 17.1,
+              "width": 9.6,
+              "height": 1.6,
+              "text": [
+                "1/26/24"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 85.0,
+              "y": 16.8,
+              "width": 11.0,
+              "height": 2.2,
+              "text": [
+                "$2,841.38"
+              ],
+              "rectanglelabels": [
+                "B-TOTAL_COST"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 2.7,
+              "y": 18.5,
+              "width": 3.0,
+              "height": 1.2,
+              "text": [
+                "Next"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 5.7,
+              "y": 18.5,
+              "width": 3.8,
+              "height": 1.2,
+              "text": [
+                "meter"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 9.5,
+              "y": 18.5,
+              "width": 5.3,
+              "height": 1.2,
+              "text": [
+                "reading"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 14.8,
+              "y": 18.5,
+              "width": 1.5,
+              "height": 1.2,
+              "text": [
+                "on"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 16.3,
+              "y": 18.5,
+              "width": 1.5,
+              "height": 1.2,
+              "text": [
+                "or"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 17.8,
+              "y": 18.5,
+              "width": 4.6,
+              "height": 1.2,
+              "text": [
+                "about:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 22.4,
+              "y": 18.5,
+              "width": 2.3,
+              "height": 1.2,
+              "text": [
+                "Feb"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 24.7,
+              "y": 18.5,
+              "width": 1.5,
+              "height": 1.2,
+              "text": [
+                "5,"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 26.2,
+              "y": 18.5,
+              "width": 3.8,
+              "height": 1.2,
+              "text": [
+                "2024."
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 2.7,
+              "y": 19.6,
+              "width": 3.4,
+              "height": 1.4,
+              "text": [
+                "State"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 6.1,
+              "y": 19.6,
+              "width": 3.4,
+              "height": 1.4,
+              "text": [
+                "taxes"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 9.5,
+              "y": 19.6,
+              "width": 2.7,
+              "height": 1.4,
+              "text": [
+                "this"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 12.2,
+              "y": 19.6,
+              "width": 3.4,
+              "height": 1.4,
+              "text": [
+                "bill:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.6,
+              "y": 19.6,
+              "width": 3.4,
+              "height": 1.4,
+              "text": [
+                "About"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.0,
+              "y": 19.6,
+              "width": 4.1,
+              "height": 1.4,
+              "text": [
+                "$7.11."
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 23.1,
+              "y": 19.6,
+              "width": 1.3,
+              "height": 1.4,
+              "text": [
+                "PA"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 24.4,
+              "y": 19.6,
+              "width": 3.4,
+              "height": 1.4,
+              "text": [
+                "Gross"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 27.8,
+              "y": 19.6,
+              "width": 5.4,
+              "height": 1.4,
+              "text": [
+                "Receipts"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 33.2,
+              "y": 19.6,
+              "width": 2.8,
+              "height": 1.4,
+              "text": [
+                "Tax:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 36.0,
+              "y": 19.6,
+              "width": 3.4,
+              "height": 1.4,
+              "text": [
+                "About"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 39.4,
+              "y": 19.6,
+              "width": 4.7,
+              "height": 1.4,
+              "text": [
+                "$43.29."
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 50.4,
+              "y": 20.0,
+              "width": 5.7,
+              "height": 1.1,
+              "text": [
+                "Account"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 56.1,
+              "y": 20.0,
+              "width": 5.6,
+              "height": 1.1,
+              "text": [
+                "Balance"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 89.7,
+              "y": 20.0,
+              "width": 6.8,
+              "height": 1.4,
+              "text": [
+                "$2,841.38"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 3.1,
+              "y": 21.7,
+              "width": 5.7,
+              "height": 1.7,
+              "text": [
+                "Supply"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 8.8,
+              "y": 21.7,
+              "width": 6.6,
+              "height": 1.7,
+              "text": [
+                "Details"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 51.0,
+              "y": 23.0,
+              "width": 6.8,
+              "height": 1.5,
+              "text": [
+                "Delivery"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 57.8,
+              "y": 23.0,
+              "width": 6.1,
+              "height": 1.5,
+              "text": [
+                "Details"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.8,
+              "y": 24.2,
+              "width": 7.5,
+              "height": 1.1,
+              "text": [
+                "Generation"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 23.3,
+              "y": 24.2,
+              "width": 0.8,
+              "height": 1.1,
+              "text": [
+                "&"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 24.1,
+              "y": 24.2,
+              "width": 9.0,
+              "height": 1.1,
+              "text": [
+                "Transmission"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 33.1,
+              "y": 24.2,
+              "width": 5.2,
+              "height": 1.1,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 38.3,
+              "y": 24.2,
+              "width": 2.2,
+              "height": 1.1,
+              "text": [
+                "for"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 40.5,
+              "y": 24.2,
+              "width": 2.3,
+              "height": 1.1,
+              "text": [
+                "Dec"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 42.8,
+              "y": 24.2,
+              "width": 3.7,
+              "height": 1.1,
+              "text": [
+                "4-Jan"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 46.5,
+              "y": 24.2,
+              "width": 0.8,
+              "height": 1.1,
+              "text": [
+                "4"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 2.5,
+              "y": 25.8,
+              "width": 8.3,
+              "height": 3.7,
+              "text": [
+                "nrg"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.2,
+              "y": 26.9,
+              "width": 5.5,
+              "height": 1.0,
+              "text": [
+                "General"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 68.7,
+              "y": 26.9,
+              "width": 5.4,
+              "height": 1.0,
+              "text": [
+                "Service"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 74.1,
+              "y": 26.9,
+              "width": 3.9,
+              "height": 1.0,
+              "text": [
+                "Rate:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 78.0,
+              "y": 26.9,
+              "width": 2.3,
+              "height": 1.0,
+              "text": [
+                "LP4"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 80.3,
+              "y": 26.9,
+              "width": 2.4,
+              "height": 1.0,
+              "text": [
+                "for"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 82.7,
+              "y": 26.9,
+              "width": 2.3,
+              "height": 1.0,
+              "text": [
+                "Dec"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 85.0,
+              "y": 26.9,
+              "width": 0.8,
+              "height": 1.0,
+              "text": [
+                "4"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 85.8,
+              "y": 26.9,
+              "width": 0.7,
+              "height": 1.0,
+              "text": [
+                "-"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 86.5,
+              "y": 26.9,
+              "width": 2.4,
+              "height": 1.0,
+              "text": [
+                "Jan"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 88.9,
+              "y": 26.9,
+              "width": 0.7,
+              "height": 1.0,
+              "text": [
+                "5"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.7,
+              "y": 25.5,
+              "width": 3.5,
+              "height": 0.9,
+              "text": [
+                "State"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.2,
+              "y": 25.5,
+              "width": 3.5,
+              "height": 0.9,
+              "text": [
+                "Sales"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 22.7,
+              "y": 25.5,
+              "width": 2.0,
+              "height": 0.9,
+              "text": [
+                "Tax"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 44.7,
+              "y": 25.4,
+              "width": 4.0,
+              "height": 1.2,
+              "text": [
+                "196.31"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.2,
+              "y": 25.5,
+              "width": 7.9,
+              "height": 1.2,
+              "text": [
+                "Distribution"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 71.1,
+              "y": 25.5,
+              "width": 4.6,
+              "height": 1.2,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.8,
+              "y": 26.5,
+              "width": 8.4,
+              "height": 1.1,
+              "text": [
+                "Generation:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 24.2,
+              "y": 26.5,
+              "width": 6.2,
+              "height": 1.1,
+              "text": [
+                "55600KWH"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 30.4,
+              "y": 26.5,
+              "width": 0.8,
+              "height": 1.1,
+              "text": [
+                "@"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 31.2,
+              "y": 26.5,
+              "width": 9.3,
+              "height": 1.1,
+              "text": [
+                "$0.05885/KWH"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 43.7,
+              "y": 26.5,
+              "width": 5.0,
+              "height": 1.1,
+              "text": [
+                "3,271.83"
+              ],
+              "rectanglelabels": [
+                "B-KWH_COST"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 55.0,
+              "y": 26.6,
+              "width": 5.7,
+              "height": 3.3,
+              "text": [
+                "ppl"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.1,
+              "y": 28.0,
+              "width": 6.0,
+              "height": 1.2,
+              "text": [
+                "Customer"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 69.1,
+              "y": 28.0,
+              "width": 4.6,
+              "height": 1.2,
+              "text": [
+                "Charge"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 92.2,
+              "y": 28.0,
+              "width": 4.2,
+              "height": 1.2,
+              "text": [
+                "169.80"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.7,
+              "y": 28.5,
+              "width": 3.5,
+              "height": 1.1,
+              "text": [
+                "Total"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.2,
+              "y": 28.5,
+              "width": 2.1,
+              "height": 1.1,
+              "text": [
+                "NRG"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 21.3,
+              "y": 28.5,
+              "width": 4.2,
+              "height": 1.1,
+              "text": [
+                "Retail"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 25.5,
+              "y": 28.5,
+              "width": 6.4,
+              "height": 1.1,
+              "text": [
+                "Solutions"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 31.9,
+              "y": 28.5,
+              "width": 5.0,
+              "height": 1.1,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 42.5,
+              "y": 28.5,
+              "width": 6.2,
+              "height": 1.1,
+              "text": [
+                "$3,468.14"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.2,
+              "y": 29.2,
+              "width": 4.0,
+              "height": 1.1,
+              "text": [
+                "207.0"
+              ],
+              "rectanglelabels": [
+                "B-KW_USAGE"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.2,
+              "y": 29.2,
+              "width": 1.6,
+              "height": 1.1,
+              "text": [
+                "kW"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 68.8,
+              "y": 29.2,
+              "width": 1.6,
+              "height": 1.1,
+              "text": [
+                "at"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 70.4,
+              "y": 29.2,
+              "width": 6.4,
+              "height": 1.1,
+              "text": [
+                "$2.54696"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 76.8,
+              "y": 29.2,
+              "width": 2.4,
+              "height": 1.1,
+              "text": [
+                "per"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 79.2,
+              "y": 29.2,
+              "width": 1.6,
+              "height": 1.1,
+              "text": [
+                "kW"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 92.1,
+              "y": 29.4,
+              "width": 4.3,
+              "height": 1.0,
+              "text": [
+                "527.22"
+              ],
+              "rectanglelabels": [
+                "B-KW_COST"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 51.1,
+              "y": 30.0,
+              "width": 1.4,
+              "height": 0.6,
+              "text": [
+                "PPL"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 52.5,
+              "y": 30.0,
+              "width": 3.6,
+              "height": 0.6,
+              "text": [
+                "Electric"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 56.1,
+              "y": 30.0,
+              "width": 4.0,
+              "height": 0.6,
+              "text": [
+                "Utilities"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.2,
+              "y": 30.5,
+              "width": 2.2,
+              "height": 1.0,
+              "text": [
+                "Tax"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 65.4,
+              "y": 30.5,
+              "width": 2.2,
+              "height": 1.0,
+              "text": [
+                "Cut"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.6,
+              "y": 30.5,
+              "width": 2.2,
+              "height": 1.0,
+              "text": [
+                "and"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 69.8,
+              "y": 30.5,
+              "width": 2.9,
+              "height": 1.0,
+              "text": [
+                "Jobs"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 72.7,
+              "y": 30.5,
+              "width": 2.1,
+              "height": 1.0,
+              "text": [
+                "Act"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 74.8,
+              "y": 30.5,
+              "width": 4.4,
+              "height": 1.0,
+              "text": [
+                "Credit"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 79.2,
+              "y": 30.5,
+              "width": 1.5,
+              "height": 1.0,
+              "text": [
+                "at"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 80.7,
+              "y": 30.5,
+              "width": 4.3,
+              "height": 1.0,
+              "text": [
+                "-7.67%"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 92.4,
+              "y": 30.6,
+              "width": 4.0,
+              "height": 0.9,
+              "text": [
+                "-53.46"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 2.8,
+              "y": 31.1,
+              "width": 1.9,
+              "height": 1.0,
+              "text": [
+                "For"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 4.7,
+              "y": 31.1,
+              "width": 5.8,
+              "height": 1.0,
+              "text": [
+                "questions"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 10.5,
+              "y": 31.1,
+              "width": 1.3,
+              "height": 1.0,
+              "text": [
+                "on"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 11.8,
+              "y": 31.1,
+              "width": 3.3,
+              "height": 1.0,
+              "text": [
+                "these"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.1,
+              "y": 31.1,
+              "width": 5.1,
+              "height": 1.0,
+              "text": [
+                "charges,"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 20.2,
+              "y": 31.1,
+              "width": 3.9,
+              "height": 1.0,
+              "text": [
+                "please"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 24.1,
+              "y": 31.1,
+              "width": 4.6,
+              "height": 1.0,
+              "text": [
+                "contact"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 28.7,
+              "y": 31.1,
+              "width": 2.5,
+              "height": 1.0,
+              "text": [
+                "this"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 31.2,
+              "y": 31.1,
+              "width": 5.2,
+              "height": 1.0,
+              "text": [
+                "supplier"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 36.4,
+              "y": 31.1,
+              "width": 1.8,
+              "height": 1.0,
+              "text": [
+                "at:"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.4,
+              "y": 31.8,
+              "width": 3.6,
+              "height": 0.8,
+              "text": [
+                "Smart"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.0,
+              "y": 31.8,
+              "width": 3.5,
+              "height": 0.8,
+              "text": [
+                "Meter"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 70.5,
+              "y": 31.8,
+              "width": 3.6,
+              "height": 0.8,
+              "text": [
+                "Rider"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 74.1,
+              "y": 31.8,
+              "width": 0.7,
+              "height": 0.8,
+              "text": [
+                "-"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 74.8,
+              "y": 31.8,
+              "width": 3.6,
+              "height": 0.8,
+              "text": [
+                "Phase"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 78.4,
+              "y": 31.8,
+              "width": 0.8,
+              "height": 0.8,
+              "text": [
+                "1"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 92.7,
+              "y": 31.6,
+              "width": 3.7,
+              "height": 1.2,
+              "text": [
+                "70.70"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 4.2,
+              "y": 33.0,
+              "width": 2.0,
+              "height": 2.6,
+              "text": [
+                "C"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 9.3,
+              "y": 33.0,
+              "width": 8.6,
+              "height": 0.9,
+              "text": [
+                "855-500-8703"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 29.8,
+              "y": 33.0,
+              "width": 2.2,
+              "height": 0.9,
+              "text": [
+                "NRG"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 32.0,
+              "y": 33.0,
+              "width": 4.1,
+              "height": 0.9,
+              "text": [
+                "Retail"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 36.1,
+              "y": 33.0,
+              "width": 6.3,
+              "height": 0.9,
+              "text": [
+                "Solutions"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.3,
+              "y": 33.0,
+              "width": 3.8,
+              "height": 1.0,
+              "text": [
+                "Storm"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.1,
+              "y": 33.0,
+              "width": 4.4,
+              "height": 1.0,
+              "text": [
+                "Damage"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 71.5,
+              "y": 33.0,
+              "width": 5.3,
+              "height": 1.0,
+              "text": [
+                "Expense"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 76.8,
+              "y": 33.0,
+              "width": 3.7,
+              "height": 1.0,
+              "text": [
+                "Rider"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 80.5,
+              "y": 33.0,
+              "width": 0.8,
+              "height": 1.0,
+              "text": [
+                "/"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 81.3,
+              "y": 33.0,
+              "width": 6.0,
+              "height": 1.0,
+              "text": [
+                "Customer"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 92.2,
+              "y": 32.9,
+              "width": 4.2,
+              "height": 1.1,
+              "text": [
+                "-20.22"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 29.8,
+              "y": 34.2,
+              "width": 5.7,
+              "height": 0.9,
+              "text": [
+                "Customer"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 35.5,
+              "y": 34.2,
+              "width": 5.7,
+              "height": 0.9,
+              "text": [
+                "Services"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.3,
+              "y": 34.2,
+              "width": 4.4,
+              "height": 1.0,
+              "text": [
+                "System"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.7,
+              "y": 34.2,
+              "width": 8.1,
+              "height": 1.0,
+              "text": [
+                "Improvement"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 75.8,
+              "y": 34.2,
+              "width": 4.4,
+              "height": 1.0,
+              "text": [
+                "Charge"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 80.2,
+              "y": 34.2,
+              "width": 1.5,
+              "height": 1.0,
+              "text": [
+                "at"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 81.7,
+              "y": 34.2,
+              "width": 3.8,
+              "height": 1.0,
+              "text": [
+                "5.00%"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 92.4,
+              "y": 34.0,
+              "width": 4.1,
+              "height": 1.3,
+              "text": [
+                "35.00"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 29.8,
+              "y": 35.3,
+              "width": 1.7,
+              "height": 0.9,
+              "text": [
+                "PO"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 31.5,
+              "y": 35.3,
+              "width": 2.5,
+              "height": 0.9,
+              "text": [
+                "Box"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 34.0,
+              "y": 35.3,
+              "width": 3.4,
+              "height": 0.9,
+              "text": [
+                "1532"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.3,
+              "y": 35.4,
+              "width": 2.1,
+              "height": 1.0,
+              "text": [
+                "Act"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 65.4,
+              "y": 35.4,
+              "width": 2.1,
+              "height": 1.0,
+              "text": [
+                "129"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.5,
+              "y": 35.4,
+              "width": 7.2,
+              "height": 1.0,
+              "text": [
+                "Compliance"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 74.7,
+              "y": 35.4,
+              "width": 3.5,
+              "height": 1.0,
+              "text": [
+                "Rider"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 93.4,
+              "y": 35.3,
+              "width": 3.1,
+              "height": 1.2,
+              "text": [
+                "5.83"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 29.8,
+              "y": 36.4,
+              "width": 5.6,
+              "height": 1.0,
+              "text": [
+                "Houston,"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 35.4,
+              "y": 36.4,
+              "width": 1.4,
+              "height": 1.0,
+              "text": [
+                "TX"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 36.8,
+              "y": 36.4,
+              "width": 7.1,
+              "height": 1.0,
+              "text": [
+                "77251-1532"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.3,
+              "y": 36.6,
+              "width": 1.5,
+              "height": 1.0,
+              "text": [
+                "PA"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 64.8,
+              "y": 36.6,
+              "width": 2.2,
+              "height": 1.0,
+              "text": [
+                "Tax"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 67.0,
+              "y": 36.6,
+              "width": 2.1,
+              "height": 1.0,
+              "text": [
+                "Adj"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 69.1,
+              "y": 36.6,
+              "width": 6.6,
+              "height": 1.0,
+              "text": [
+                "Surcharge"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 75.7,
+              "y": 36.6,
+              "width": 1.4,
+              "height": 1.0,
+              "text": [
+                "at"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 77.1,
+              "y": 36.6,
+              "width": 5.7,
+              "height": 1.0,
+              "text": [
+                "-0.1457%"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 93.3,
+              "y": 36.5,
+              "width": 3.2,
+              "height": 1.2,
+              "text": [
+                "-1.07"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.8,
+              "y": 38.6,
+              "width": 7.4,
+              "height": 1.0,
+              "text": [
+                "Generation"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 23.2,
+              "y": 38.6,
+              "width": 0.8,
+              "height": 1.0,
+              "text": [
+                "&"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 24.0,
+              "y": 38.6,
+              "width": 9.0,
+              "height": 1.0,
+              "text": [
+                "Transmission"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 33.0,
+              "y": 38.6,
+              "width": 5.2,
+              "height": 1.0,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 38.2,
+              "y": 38.6,
+              "width": 2.2,
+              "height": 1.0,
+              "text": [
+                "for"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 40.4,
+              "y": 38.6,
+              "width": 2.3,
+              "height": 1.0,
+              "text": [
+                "Jan"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 42.7,
+              "y": 38.6,
+              "width": 3.7,
+              "height": 1.0,
+              "text": [
+                "4-Jan"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 46.4,
+              "y": 38.6,
+              "width": 0.7,
+              "height": 1.0,
+              "text": [
+                "5"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 63.2,
+              "y": 38.5,
+              "width": 3.4,
+              "height": 1.2,
+              "text": [
+                "Total"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 66.6,
+              "y": 38.5,
+              "width": 5.5,
+              "height": 1.2,
+              "text": [
+                "Delivery"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 72.1,
+              "y": 38.5,
+              "width": 4.9,
+              "height": 1.2,
+              "text": [
+                "Charges"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 91.1,
+              "y": 38.5,
+              "width": 5.3,
+              "height": 1.1,
+              "text": [
+                "$733.80"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.8,
+              "y": 39.9,
+              "width": 3.4,
+              "height": 0.9,
+              "text": [
+                "State"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.2,
+              "y": 39.9,
+              "width": 3.5,
+              "height": 0.9,
+              "text": [
+                "Sales"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 22.7,
+              "y": 39.9,
+              "width": 2.1,
+              "height": 0.9,
+              "text": [
+                "Tax"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 45.2,
+              "y": 39.6,
+              "width": 3.5,
+              "height": 1.4,
+              "text": [
+                "13.39"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 6.2,
+              "y": 40.5,
+              "width": 4.5,
+              "height": 0.7,
+              "text": [
+                "garessive"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 10.7,
+              "y": 40.5,
+              "width": 3.4,
+              "height": 0.7,
+              "text": [
+                "Eneray."
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 15.7,
+              "y": 40.9,
+              "width": 3.5,
+              "height": 1.1,
+              "text": [
+                "2400"
+              ],
+              "rectanglelabels": [
+                "B-KWH_USAGE"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 19.2,
+              "y": 40.9,
+              "width": 1.8,
+              "height": 1.1,
+              "text": [
+                "KH"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 21.0,
+              "y": 40.9,
+              "width": 0.8,
+              "height": 1.1,
+              "text": [
+                "@"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 21.8,
+              "y": 40.9,
+              "width": 4.4,
+              "height": 1.1,
+              "text": [
+                "0.093"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 26.2,
+              "y": 40.9,
+              "width": 2.6,
+              "height": 1.1,
+              "text": [
+                "per"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 28.8,
+              "y": 40.9,
+              "width": 1.7,
+              "height": 1.1,
+              "text": [
+                "KH"
+              ],
+              "rectanglelabels": [
+                "O"
+              ]
+            }
+          },
+          {
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+              "x": 44.5,
+              "y": 40.9,
+              "width": 4.2,
+              "height": 1.1,
+              "text": [
+                "223.19"
+              ],
+              "rectanglelabels": [
+                "B-KWH_COST"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
