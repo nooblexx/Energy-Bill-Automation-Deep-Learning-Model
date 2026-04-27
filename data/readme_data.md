@@ -16,15 +16,16 @@ The data used to train this model was directly from Lehigh Industrial Training a
 ### Folder Structure
 
 Energy_Bill_Automation/
-├── raw_pdfs/ → original PDF bills
-├── pages/ → clean PNG images from PyMuPDF at 200 DPI
-├── ocr_pages/ → PaddleOCR annotated images with bounding boxes
-├── ocr_output/ → PaddleOCR JSON results for all pages
-├── training_data/
-│ ├── annotations_raw/ → best page JSON untouched copy
-│ ├── annotations_words/ → final flattened JSON ready for LayoutLMv3
-│ ├── images/ → best page PNG for LayoutLMv3
-│ └── label_studio/ → Label Studio import/export files
+├── data/
+│ ├── raw_pdfs/ → original PDF bills
+│ ├── pages/ → clean PNG images from PyMuPDF at 200 DPI
+│ ├── ocr_pages/ → PaddleOCR annotated images with bounding boxes
+│ ├── ocr_output/ → PaddleOCR JSON results for all pages
+│ └── training_data/
+│  ├── annotations_raw/ → best page JSON untouched copy
+│  ├── annotations_words/ → final flattened JSON ready for LayoutLMv3
+│  ├── images/ → best page PNG for LayoutLMv3
+│  └── label_studio/ → Label Studio import/export files
 ├── models/
 │ └── layoutlmv3-bills/ → saved fine-tuned model
 ├── utils/

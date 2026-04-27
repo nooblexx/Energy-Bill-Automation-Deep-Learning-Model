@@ -20,7 +20,6 @@ def is_numeric_token(token):
     cleaned = re.sub(r"[^\d\.\-]", "", token)
     return bool(cleaned) and bool(num_re.match(cleaned))
 
-
 # Function to compare tokens to the ones we want
 def is_keyword_token(tokens):
     # make all tokens lower case to find correct match

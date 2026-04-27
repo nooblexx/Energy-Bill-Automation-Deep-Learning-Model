@@ -27,9 +27,12 @@ Currently, this data is not currently accessible to the public. I will be using 
 ### Required Installations
 
 ```
+!conda create -n ml_beam python=3.11
+!conda activate ml_beam
 !conda install -c conda-forge pymupdf
+!conda install pytorch torchvision
 !python -m pip install paddlepaddle==3.2.0
-!pip install paddleocr jupyter matplotlib
+!python -m pip install paddleocr jupyter matplotlib transformers
 ```
 
 ### Extra Installation used for Training

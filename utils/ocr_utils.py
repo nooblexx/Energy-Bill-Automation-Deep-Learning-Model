@@ -1,8 +1,8 @@
 import re, json
 import fitz
 from pathlib import Path
-from preprocessing import find_stop_line
-from bbox_utils import poly_to_bbox, split_bbox_horizontally
+from utils.preprocessing import find_stop_line
+from utils.bbox_utils import poly_to_bbox, split_bbox_horizontally
 
 split_re = re.compile(r"\S+")
 
@@ -56,7 +56,6 @@ def pdf2png(pdf_path, output_dir, dpi=200):
     doc = fitz.open(pdf_path)
     pdf_stem = Path(pdf_path).stem
     saved = []
-
     for i in range(len(doc)):
       page = doc[i]
       # Create transformation matrix for DPI scaling
@@ -66,7 +65,6 @@ def pdf2png(pdf_path, output_dir, dpi=200):
       pix.save(str(out_path))
       saved.append(out_path)
       print(f"Saved page image: {out_path}")
-  
     doc.close()
     return saved
 # USED CHATGPT TO ASSIST WITH FUNCTION

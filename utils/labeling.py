@@ -1,6 +1,6 @@
 import re
-from preprocessing import is_numeric_token, KEYWORDS, COMPILED_KEYWORDS
-from bbox_utils import normalize_bbox
+from utils.preprocessing import is_numeric_token, KEYWORDS, COMPILED_KEYWORDS
+from utils.bbox_utils import normalize_bbox
 
 # Avoid incorrect tokenization of charges (usually far away from previous tokens)
 def group_lines_by_row(entries, y_tolerance=7):
