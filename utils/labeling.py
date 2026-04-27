@@ -107,12 +107,11 @@ def flatten_labels(page_id, image_path, labeled_rows, page_width, page_height):
                 all_tokens.append(token)
                 all_bboxes.append(normalize_bbox(bbox, page_width, page_height))
                 all_labels.append(label)
-
     return {
-        "id":         page_id,
-        "image":      image_path,
-        "tokens":     all_tokens,
-        "bboxes":     all_bboxes,
-        "labels":     all_labels,
+        "id": page_id,
+        "image": image_path,
+        "tokens": all_tokens,
+        "bboxes": all_bboxes,
+        "labels": all_labels,
         "token_count": len(all_tokens)
     }

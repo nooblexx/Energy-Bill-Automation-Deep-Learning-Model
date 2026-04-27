@@ -32,7 +32,7 @@ Currently, this data is not currently accessible to the public. I will be using 
 !conda install -c conda-forge pymupdf
 !conda install pytorch torchvision
 !python -m pip install paddlepaddle==3.2.0
-!python -m pip install paddleocr jupyter matplotlib transformers seqeval scikit-learn
+!python -m pip install paddleocr jupyter matplotlib transformers seqeval scikit-learn streamlit
 ```
 
 ### Extra Installation used for Training
