@@ -1,5 +1,6 @@
 import re, json
 import fitz
+from urllib.parse import quote
 from pathlib import Path
 from utils.preprocessing import find_stop_line
 from utils.bbox_utils import poly_to_bbox, split_bbox_horizontally
@@ -67,7 +68,43 @@ def pdf2png(pdf_path, output_dir, dpi=200):
       print(f"Saved page image: {out_path}")
     doc.close()
     return saved
-# USED CHATGPT TO ASSIST WITH FUNCTION
+
+# Convert to label-studio ready format ## CREATED BY CHATGPT ##
+def convert_to_label_studio(jsonl_path, output_path, image_root):
+    with open(jsonl_path, "r") as f:
+        page = json.load(f)
+
+    image_filename = page['id'] + ".png"
+    encoded_filename = quote(image_filename)
+    # Build all annotations for one task
+    results = []
+    for token, bbox, label in zip(page["tokens"], page["bboxes"], page["labels"]):
+        x1, y1, x2, y2 = bbox
+        results.append({
+            "type": "rectanglelabels",
+            "from_name": "label",
+            "to_name": "image",
+            "value": {
+                "x": x1 / 10,
+                "y": y1 / 10,
+                "width": (x2 - x1) / 10,
+                "height":(y2 - y1) / 10,
+                "text": [token],
+                "rectanglelabels": [label]
+            }
+        })
+    # One single task with all annotations
+    tasks = [{
+        "data": {
+            "image": f"/data/local-files/?d=training_data/images/{encoded_filename}",
+        },
+        "predictions": [{"result": results}]
+    }]
+    with open(output_path, "w") as f:
+        json.dump(tasks, f, indent=2)
+    print(f"Exported {len(results)} tokens as one task to {output_path}")
+
+# Convert from label studio to json ## CREATED BY CHATGPT ##
 def convert_from_label_studio(export_path, original_path, output_path):
     with open(export_path, "r") as f:
         tasks = json.load(f)

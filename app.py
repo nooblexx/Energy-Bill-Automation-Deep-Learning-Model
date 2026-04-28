@@ -8,15 +8,13 @@ from PIL import Image
 from pathlib import Path
 from transformers import AutoProcessor, AutoModelForTokenClassification
 
-from utils.extractor import extract_utility_bill_data
 from utils.preprocessing import find_stop_line, score_page
 from utils.ocr_utils import pdf2png, extract_text_lines, convert_file
 from utils.labeling import group_lines_by_row, label_row, flatten_labels
 
 RAW_PDFS = "data/raw_pdfs"
-PAGES_DIR = "data/pages"
-OCR_DIR = "data/ocr_output"
-TRAIN_ANN = "data/training_data/annotations_raw"
+PAGES_DIR = "data/bill_png"
+OCR_DIR = "data/ocr_json"
 MODEL_DIR = "models/layoutlmv3-bills"
 
 # Handle caching to not create function everytime
@@ -80,15 +78,18 @@ def run_inference(ocr_path, img_path, processor, model):
     print("-" * 35)
     for token, pred in zip(page_entry["tokens"], word_predictions):
         label = id2label[pred]
+        print(f"{token:<20} {label}")
         if label != "O":
             if label not in results:
                 results[label] = []
             results[label].append(token)
-    print("tokens:", len(page_entry["tokens"]))
-    print("predictions:", len(predictions))
+    debug_path = Path("data") / "debug_page_entry.json"
+    with open(debug_path, "w") as f:
+        json.dump(page_entry, f, indent=2)
     return results
 # Load model on page start up to avoid reloading everytime
 processor, model = load_model(MODEL_DIR)
+
 with st.sidebar:
     if model is not None:
         st.success("Model loaded ✓")
@@ -114,10 +115,20 @@ def main() -> None:
         st.markdown(
             """
             1. PDF to image
-            2. PaddleOCR to text and boxes (Currently debugging specific DLL error)
+            
+            :gray[PaddleOCR is able to accept PDFs to perform recognition on but we convert to png to get 200 dpi on an image]
+
+            2. PaddleOCR to text and boxes
+
+            :gray[Reads in PNG and converts to json file holding bounding box, confidence scores, and text]
+
             3. LayoutLM token classification
-            4. Optional row aggregation
-            5. Excel-ready output
+
+            :gray[Multi-model transformer for document AI using word embeddings and a linear embedding containing image patches to match tokens with vision AI]
+
+            4. Excel-ready output :red[Future Work]
+
+            :gray[Use provided json from LayoutLM to feed into numerous.ai, a generative AI model built to work with spreadsheets]
             """
         )
         st.info("Current mode: UI prototype with mock extraction output.")
@@ -241,40 +252,6 @@ def main() -> None:
             st.table(df)
         else:
             st.caption("Please choose another PDF instead")
-        
-        # # Step 5 - Load mock extraction results
-        # with st.spinner("Running model inference..."):
-        #     # Mock extracted values for demo
-        #     extracted = {
-        #         "B-KWH_USAGE": "58,200",
-        #         "B-KWH_COST":  "$3,271.83",
-        #         "B-KW_USAGE":  "239.0",
-        #         "B-KW_COST":   "$608.73",
-        #         "B-TOTAL_COST": "$2,841.38"
-        #     }
-        # st.success("Extraction complete ✓")
-        # # Display results
-        # st.subheader("Extracted Values")
-        # display_data = {
-        #     "Field": ["kWh Usage", "kWh Cost", "kW Usage", "kW Cost", "Total Charge"],
-        #     "Value": [
-        #         extracted["B-KWH_USAGE"],
-        #         extracted["B-KWH_COST"],
-        #         extracted["B-KW_USAGE"],
-        #         extracted["B-KW_COST"],
-        #         extracted["B-TOTAL_COST"]
-        #     ]
-        # }
-        # df = pd.DataFrame(display_data)
-        # st.table(df, width=True)
-
-    # with st.spinner("Running extraction pipeline..."):
-    #     result = extract_utility_bill_data
-    #         file_name=uploaded_file.name,
-    #         file_bytes=io.BytesIO(file_bytes).getvalue(),
-    #     )
-
-    # render_dataframe_tab(result)
 
 if __name__ == "__main__":
     main()
