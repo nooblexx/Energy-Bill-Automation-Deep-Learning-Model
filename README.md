@@ -16,6 +16,16 @@ This project explores the development of a model system for understanding and ex
 - Generate excel sheet from output labels from LLM
 - Streamlit implementation to make model accessible through a web-application
 
+### How to Run Code
+**OCR pipeline**
+Open Energy-Automation.ipynb. Follow steps in order on jupyter notebook inside. PDF file must be contained within raw_pdfs/ and typed into the first two cells manually. One to turn the pdf into a png, and from a png to paddleOCR. 
+
+**Training pipeline**
+TO train the model, run first cell with all imports and scroll down to part 3: LayoutLM. All files must be contained within training_data information. Sample training data has been provided. Run full pipeline in order.
+
+**Streamlit app**
+Unfortunately, paddleOCR is not compatible with streamlit Community Cloud, so the app will not load. However, if it is run locally, entire piepline is possible. Select pdf to extract details from and run process
+
 ### Task
 
 The task requires reviewing a electricity bill and extracting key data such as energy usage, demand usage and costs. The process is extremely repetitive and follows recognizable patterns making it ideal for machine learning models to learn from.
