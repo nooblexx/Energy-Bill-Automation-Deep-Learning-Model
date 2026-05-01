@@ -3,6 +3,6 @@ torch
 Pillow
 transformers==5.6.2
 pandas==3.0.2
-paddlepaddle
+paddlepaddle==2.6.1
 paddleocr
 pdf2image
